@@ -8,7 +8,8 @@ let conf = {
         publicPath: 'js/'
     },
     devServer: {
-        overlay: true
+        overlay: true,
+        port: 3000,
     },
     module: {
         rules: [
